@@ -27,7 +27,7 @@ private lazy var requestHandler: InviteFacebookRequestHandler = {
         return InviteFacebookRequestHandler(viewController: self)
     }()
 ```
-> Create a request handler in you class as shown above.
+> Create a request handler in your class as shown above.
 
 ```swift
 func sendRequest(type: InviteFacebookRequestHandler.RequestType) {
@@ -82,7 +82,7 @@ lazy var requestHandler: InviteTwitterRequestHandler = {
         return InviteTwitterRequestHandler(viewController: self)
     }()
 ```
-> Create a request handler in you class as shown above.
+> Create a request handler in your class as shown above.
 
 ```swift
 func sendRequest(type: InviteSocialNetworkRequestHandler.RequestType) {
